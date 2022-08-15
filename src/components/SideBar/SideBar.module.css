@@ -1,7 +1,12 @@
 .calendar{
     background-color: rgba(75, 132, 244, 1);
-    width: 200px;
     height: 48px;
+}
+.sidebar{
+    width: 20%;
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
 }
 .logo{
     margin-left: 20px;
@@ -20,14 +25,15 @@
 
 }
 
-
+.sidebar_body{
+    padding: 0 15px;
+}
 .btn{
     box-sizing: border-box;
-    position: absolute;
-    width: 160px;
+    width: 100%;
+    margin: 30px 0;
     height: 40px;
-    left: 16px;
-    top: 64px;
+
     border: 1px solid #4B84F4;
     border-radius: 10px;
     background-color: white;
