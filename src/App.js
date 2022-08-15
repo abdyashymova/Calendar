@@ -7,9 +7,8 @@ import Header from "./components/Header/Header";
 function App(){
     return (
         <BrowserRouter>
-            <Header/>
             <Routes>
-                <Route path="/Home" element={<Home pageName="Главная страничка"/>}/>
+                <Route path="/" element={<Home pageName="Главная страничка"/>}/>
                 <Route path="/LogIn" element={<LogIn/>}/>
                 <Route path="/registration" element={<Registration/>}/>
             </Routes>

@@ -1,0 +1,35 @@
+.calendar{
+    background-color: rgba(75, 132, 244, 1);
+    width: 200px;
+    height: 48px;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.title1{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: -25px;
+    display: flex;
+    color:#fff;
+
+}
+
+
+.btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 16px;
+    top: 64px;
+    border: 1px solid #4B84F4;
+    border-radius: 10px;
+    background-color: white;
+}
+
