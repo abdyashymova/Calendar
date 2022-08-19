@@ -14,7 +14,6 @@
 }
 
 .title1{
-
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -28,14 +27,44 @@
 .sidebar_body{
     padding: 0 15px;
 }
+
 .btn{
     box-sizing: border-box;
     width: 100%;
     margin: 30px 0;
     height: 40px;
-
     border: 1px solid #4B84F4;
     border-radius: 10px;
     background-color: white;
 }
 
+.marks {
+    margin-top: 85%;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+    color: #4B84F4;
+}
+
+.add{
+    background: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 152px;
+    border: 1px solid #4B84F4;
+    border-radius: 6px;
+}
+
+.add_btn{
+    background: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 152px;
+    border: 1px solid #4B84F4;
+    border-radius: 6px;
+}

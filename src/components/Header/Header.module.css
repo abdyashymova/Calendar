@@ -53,7 +53,7 @@
     border-radius: 8px;
 }
 
-.user{
+.user {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -61,3 +61,5 @@
     top: 8px;
 
 }
+
+

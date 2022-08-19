@@ -17,7 +17,7 @@ const Header = () => {
                         <img src={search}/>
                     </button>
                     <button className={s.notified}>
-                        <img src={notified}/>
+                        <img  src={notified}/>
                     </button>
                 </div>
                 <div>

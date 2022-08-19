@@ -1,0 +1,122 @@
+.calendar {
+    background: #345294;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calendar img {
+    width: 300px;
+}
+.calendar h2 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 32px !important;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.register {
+    width: 70%;
+    margin: auto;
+}
+.register .user_text {
+    color: #2E2E2E;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 300;
+}
+.register .logo_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E6ECFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.register .logo_box img {
+    width: 22px;
+    height: 22px;
+}
+.register h2 {
+    color: #4B84F4;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px !important;
+}
+.register h4 {
+    margin-bottom: 6px !important;
+}
+.register label, .register h4 {
+    width: 100%;
+    color: rgba(46, 46, 46, 0.5);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto";
+    margin-bottom: 8px;
+}
+.register label input, .register h4 input {
+    margin-top: 4px;
+    width: 100%;
+    border: 1px solid rgba(46, 46, 46, 0.1) !important;
+    border-radius: 8px;
+    background: none;
+    height: 37px;
+    padding-left: 16px;
+    color: #000;
+}
+.register label .password, .register h4 .password {
+    border: 1px solid rgba(46, 46, 46, 0.1) !important;
+    border-radius: 8px;
+    background: none;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin-top: 4px;
+}
+.register label .password img, .register h4 .password img {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.register label .password input, .register h4 .password input {
+    height: 100%;
+    margin: 0;
+    border: none !important;
+    padding-right: 10px;
+}
+.register .label_validate {
+    color: red !important;
+}
+.register .save {
+    background: #4B84F4;
+    color: #fff;
+    border-radius: 8px;
+    height: 43px;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 8px;
+    font-family: "Roboto";
+}
+.register .authorization_link {
+    color: #4B84F4;
+    font-size: 13px;
+    font-weight: 300;
+}
+.register p {
+    margin-top: 8px;
+    font-family: "Roboto";
+}
+.register p .span {
+    color: #2E2E2E;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 13px;
+    margin-right: 8px;
+}
